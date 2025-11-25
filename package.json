@@ -1,0 +1,60 @@
+{
+  "name": "euroaesthetic-poland",
+  "version": "1.0.0",
+  "description": "Complete medical tourism platform for aesthetic treatments in Poland",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "deploy": "./deploy.sh",
+    "dev": "python3 -m http.server 8080",
+    "build": "echo 'No build step required for static HTML'",
+    "test": "echo 'Tests not yet implemented'"
+  },
+  "keywords": [
+    "medical-tourism",
+    "healthcare",
+    "travel",
+    "poland",
+    "aesthetic-treatments",
+    "beauty",
+    "cosmetic-surgery",
+    "travel-booking",
+    "react",
+    "tailwind"
+  ],
+  "author": "EuroAesthetic Team <info@euroaesthetic.eu>",
+  "license": "MIT",
+  "homepage": "http://72.60.93.176/euroaesthetic/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dyscrey/euroaesthetic-poland.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dyscrey/euroaesthetic-poland/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/standalone": "^7.0.0"
+  },
+  "config": {
+    "production_url": "http://72.60.93.176/euroaesthetic/",
+    "development_port": 8080,
+    "api_endpoints": {
+      "flights": "https://skyscanner-api.rapidapi.com",
+      "hotels": "https://booking-com.p.rapidapi.com",
+      "scheduling": "https://api.calendly.com"
+    }
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://euroaesthetic.eu/support"
+  }
+}
