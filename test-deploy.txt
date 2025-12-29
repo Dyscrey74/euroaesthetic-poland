@@ -1,0 +1,1 @@
+Automated deploy test from n8n - if you see this, GitHub integration works!
